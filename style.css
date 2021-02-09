@@ -3,8 +3,8 @@
 	width: 100%;
 }
 
-.navabar{
-	background-color: #0c0d0e;
+.navbar{
+	background-color: #23415C;
 	padding: 1% 0;
 	font-size: 1.2em;	
 }
@@ -18,7 +18,11 @@
 	color: #dfdfdf;
 }
 
-.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+.navbar-default .navbar-nav li a:hover{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav li a:active {
 	color: #fff;
 }
 
@@ -32,7 +36,7 @@
 }
 
 .landing-text{
-	display: teble-cell;
+	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 }
